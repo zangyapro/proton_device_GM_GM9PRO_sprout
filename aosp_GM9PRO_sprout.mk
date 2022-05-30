@@ -1,5 +1,3 @@
-  GNU nano 4.8                                 aosp_GM9PRO_sprout.mk                                           
-#LOL
 # Copyright (C) 2021 The LineageOS Project
 #
 # SPDX-License-Identifier: Apache-2.0
