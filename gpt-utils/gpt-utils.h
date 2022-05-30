@@ -77,11 +77,13 @@ extern "C" {
 #define AB_SLOT_ACTIVE                  1
 #define AB_SLOT_INACTIVE                0
 #define AB_SLOT_A_SUFFIX                "_a"
+#define PTN_XBL_CFG                     "xbl_config"
 #define AB_SLOT_B_SUFFIX                "_b"
 #define PTN_XBL                         "xbl"
-#define PTN_SWAP_LIST                   PTN_XBL, "sbl1", "rpm", "tz", "aboot", "hyp", "lksecapp", "keymaster", "cmnlib", "cmnlib32", "cmnlib64", "pmic", "apdp", "devcfg", "hosd", "keystore", "msadp", "abl", "mdtpsecapp", "mdtp"
+#define PTN_SWAP_LIST                   PTN_XBL, PTN_XBL_CFG, "sbl1", "rpm", "tz", "aboot", "hyp", "lksecapp",>
 #define AB_PTN_LIST PTN_SWAP_LIST, "boot", "system", "vendor", "modem", "bluetooth", "dsp"
 #define BOOT_DEV_DIR    "/dev/block/bootdevice/by-name"
+
 
 /******************************************************************************
  * HELPER MACROS
