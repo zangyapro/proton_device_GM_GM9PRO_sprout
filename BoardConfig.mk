@@ -128,3 +128,5 @@ WIFI_HIDL_FEATURE_DUAL_INTERFACE := true
 
 # Inherit vendor
 include vendor/GM/GM9PRO_sprout/BoardConfigVendor.mk
+#deneme
+BUILD_BROKEN_USES_BUILD_COPY_HEADERS := true
