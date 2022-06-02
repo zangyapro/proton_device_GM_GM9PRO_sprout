@@ -384,7 +384,7 @@ PRODUCT_PACKAGES += \
 # Data (CAF)
 PRODUCT_SOONG_NAMESPACES += \
     vendor/qcom/opensource/dataservices
-# POWER (CAF)
+# POWER
 # Telephony
 PRODUCT_PACKAGES += \
     ims-ext-common \
